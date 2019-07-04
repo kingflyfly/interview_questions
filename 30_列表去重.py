@@ -1,8 +1,13 @@
-b = []
-a  = [1,2,3,4,1,2]
-a.sort()
+# 1
+a,b  = [1,2,3,4,1,2],[]
 for i in a:
-    if i in a and i not in b:
+    if i not in b:
         b.append(i)
 print(b)
 
+# 2 集合
+a  = [1,2,3,4,1,2]
+b = set(a)
+print(list(b))
+
+#
