@@ -5,3 +5,4 @@ for i in a:
     if i in a and i not in b:
         b.append(i)
 print(b)
+
