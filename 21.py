@@ -1,4 +1,4 @@
-a = 'hello world yan zhe'
+a = 'hello world yan zhe wlo'
 b = a.split()
 """
 map() 会根据提供的函数对指定序列做映射。
